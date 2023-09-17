@@ -1,0 +1,13 @@
+name: 'Repo owners report'
+description: 'Get the repo owners of your organization'
+inputs:
+  org-token:  
+      description: 'GitHub Token with Org permissions'
+      required: true
+  org-name:  
+    description: 'Org Name'
+    required: true
+  
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
