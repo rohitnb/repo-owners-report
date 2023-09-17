@@ -1,5 +1,8 @@
 name: 'Repo owners report'
 description: 'Get the repo owners of your organization'
+branding:
+  icon: 'clipboard'
+  color: 'white'
 inputs:
   org-token:  
       description: 'GitHub Token with Org permissions'
