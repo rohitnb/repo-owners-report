@@ -45,7 +45,7 @@ jobs:
 
 ## Local Testing
 
-Set the environment variables `ORG_TOKEN`` and `ORG_NAME`
+Set the environment variables `ORG_TOKEN` and `ORG_NAME`
 
 ```sh
 export ORG_TOKEN=ghp_************
