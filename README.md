@@ -16,6 +16,8 @@ Generates a CSV file with the name `{org-name}-repo-owners-report.csv`
 
 ## Example Usage
 
+Quickstart: Use this [template repository](https://github.com/rohitnb/repo-owners-caller) & follow the instructions to get the report
+
 ```yml
 name: Repo Owners report
 
@@ -34,7 +36,7 @@ jobs:
       - id: run-script
         uses: rohitnb/repo-owners-report@main
         with:
-          github-org-token: ${{ secrets.ORG_TOKEN }}
+          org-token: ${{ secrets.ORG_TOKEN }}
           org-name: ${{ github.event.inputs.org-name }}
       - uses: actions/upload-artifact@v3.1.3
         with:
